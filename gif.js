@@ -16,7 +16,7 @@ $(document).ready(function() {
     $("#icon").hide()
     button.hide()
     $.get({
-      url: "https://api.giphy.com/v1/gifs/search?q=" + x + "&api_key=gvXtdrXzNRducUeJnKFWP6I0UnRv8YN1&limit=25", 
+      url: "https://api.giphy.com/v1/gifs/search?q=" + x + "&api_key=gvXtdrXzNRducUeJnKFWP6I0UnRv8YN1&limit=27", 
       success: function(result){
         var data = result.data
         var out="";
